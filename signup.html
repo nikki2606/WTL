@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>SIGNUP</title>
+</head>
+<body style="background-color: #29c5ff;" >
+  <script  src="signup.js"></script>
+<link rel="stylesheet" href="project.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="gp1.css"/>
+  <div class="tn" id="top-nav" >
+    <ul>
+        <li style="float:left;width:170px;"><a href="home.html">PROJECT HANDLER</a></li>
+          <li><a href="home.html">HOME</a></li>
+          <li><a href="login.html">LOGIN</a></li>
+    </ul>
+  </div>
+
+<div class="login-page">
+  <div class="form">
+<p>REGISTER </p>
+<form action="signup.php" method="POST" onsubmit="return validate()">
+  <input type="text" name="roll_no" id="rollno" placeholder="Roll no" required/><br/>
+   <input type="text"  name="name"  id ="name" placeholder="Name" required/><br/>
+
+  <button name="submit" type="submit" >REGISTER</button>
+  <p class="message">Already registered? <a href="login.html">Login</a></p>
+</form>
+
+</div>
+</div>
+</body>
+</html>
